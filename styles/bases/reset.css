@@ -1,0 +1,54 @@
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Reset Steyle
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+i,
+i::before,
+i::after {
+    cursor: pointer;
+}
+
+button {
+    background-color: transparent;
+    display: inline;
+    color: var(--text-color);
+    font-size: 1.6rem;
+}
+
+body {
+    direction: rtl;
+    font-family: var(--vazirmatn-font);
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: var(--text-color);
+    background-color: var(--body-bg-color);
+    user-select: none;
+}

@@ -1,0 +1,180 @@
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Responsive 2X Large
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+@media (max-width: 1399px) {
+    .item__title {
+        font-size: 1.8rem;
+    }
+}
+
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Responsive X Large
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+@media (max-width: 1199px) {
+    .item__title {
+        font-size: 2rem;
+    }
+}
+
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Responsive Large
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+@media (max-width: 991px) {
+    .verse__arabic {
+        font-size: 1.9rem;
+    }
+
+    .verse__pershin {
+        font-size: 1.5rem;
+    }
+
+    .main {
+        height: calc(100vh - 25rem - var(--gap));
+        height: calc(100svh - 25rem - var(--gap));
+    }
+
+    .controler {
+        height: calc(12rem - var(--gap));
+    }
+
+    .controler-wrapper {
+        flex-flow: row wrap;
+        row-gap: var(--gap);
+    }
+    
+    .controler__flame {
+        width: 100%;
+    }
+    .controler__information,
+    .controler__controls {
+        width: auto;
+        order: 1;
+    }
+
+    .item__title {
+        font-size: 1.2rem;
+    }
+
+    .item__time {
+        font-size: 1.1rem;
+    }
+}
+
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Responsive Medium
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+@media (max-width: 768px) {
+    .tab__menu-button {
+        display: flex;
+    }
+
+    .navigation__search-box {
+        display: none;
+        height: 5.5rem;
+        padding: calc(var(--padding) / 2);
+        position: absolute;
+        inset: calc(var(--gap) + 6rem) calc(var(--padding) + 0.5rem) auto calc(var(--padding) + 0.5rem);
+        margin: 0 auto;
+        width: auto;
+        box-shadow: 0 0.2rem 0.5rem 0 var(--item-shadow-color);
+        z-index: 998;
+    }
+
+    .navigation__search-box--show {
+        display: flex;
+    }
+
+    .main__list {
+        background-color: var(--body-bg-color);
+        display: none;
+        position: absolute;
+        padding: calc(var(--gap) + 5.5rem) 0.5rem 0.5rem 0.5rem;
+        inset: 0 0 auto 0;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .menu__list--show {
+        display: flex;
+    }
+
+    .information__content-wrapper {
+        gap: calc(var(--gap) / 2);
+    }
+    
+    .information__title {
+        font-size: 2rem;
+    }
+
+    .information__time {
+        font-size: 1.5rem;
+    }
+
+    .item__title {
+        font-size: 2rem;
+    }
+
+    .item__time {
+        font-size: 1.8rem;
+    }
+}
+
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Responsive Small
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+@media (max-width: 575px) {
+
+    *,
+    *::before,
+    *::after {
+        cursor: default !important;
+    }
+
+    .controler__controls {
+        gap: var(--gap);
+    }
+
+    .controler-wrapper {
+        column-gap: var(--gap);
+    }
+
+    .controls__icon {
+        font-size: 2.2rem;
+    }
+
+    .controls__play-stop {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .item__title {
+        font-size: 1.8rem;
+    }
+
+    .item__time {
+        font-size: 1.6rem;
+    }
+
+    .information__title {
+        font-size: 1.8rem;
+        max-width: 8.1rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}

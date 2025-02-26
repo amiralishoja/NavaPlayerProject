@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fa" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=google content=notranslate>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="apple-touch-icon" sizes="180x180" href="pictures/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="pictures/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="pictures/favicon/favicon-16x16.png">
+    <link rel="manifest" href="pictures/favicon/site.webmanifest">
+    <link rel="stylesheet" href="styles/pages/index.css">
+    <script src="scripts/doms/indexDom.js" defer></script>
+    <script src="scripts/variables/indexVar.js" defer></script>
+    <script src="scripts/bases/function.js" defer></script>
+    <script src="scripts/pages/index.js" defer></script>
+    <title>نوا پلیر</title>
+</head>
+
+<body>
+    <!-- Navigation Section -->
+    <section class="navigation">
+        <div class="container container--navigation">
+            <div class="row row--navigation">
+                <div class="col-12 col-md-8 col-xl-9 navigation__tab">
+                    <i id="menuBtn" class="fas fa-bars tab__menu-button"></i>
+                    <h1 class="tab__logo">نوا پلیر</h1>
+                    <i id="themeBtn" class="fas tab__theme"></i>
+                </div>
+                <div id="searchBox" class="col-4 col-xl-3 navigation__search-box">
+                    <input type="text" class="search-box__input">
+                    <i class="fas fa-search search-box__icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Main Section -->
+    <section class="main">
+        <div class="container container--main">
+            <div class="row row--main">
+                <div id="verseContainer" class="col-12 col-md-8 col-xl-9 main__content"></div>
+                <div id="playList" class="col-md-4 col-xl-3 main__list"></div>
+            </div>
+        </div>
+    </section>
+    <section class="controler">
+        <div class="container container--controler">
+            <div class="row row--controler">
+                <div class="col-12 controler-wrapper">
+                    <div id="controlerData" class="controler__information">
+                        <img id="informationPicture" alt="" class="information__picture">
+                        <div class="information__content-wrapper">
+                            <h4 id="informationTitle" class="information__title"></h4>
+                            <h3 id="informationTime" class="information__time"></h3>
+                        </div>
+                    </div>
+                    <div id="flameContainer" class="controler__flame"></div>
+                    <div class="controler__controls">
+                        <i id="volumeBtn" class="fas fa-volume-high controls__volume controls__icon"></i>
+                        <i id="nextBtn" class="fas fa-forward-step controls__next controls__icon"></i>
+                        <i id="playStopBtn" class="fas fa-play controls__play-stop controls__icon"></i>
+                        <i id="previousBtn" class="fas fa-backward-step controls__previous controls__icon"></i>
+                        <i id="repeatBtn" class="fas fa-repeat controls__repeat controls__icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

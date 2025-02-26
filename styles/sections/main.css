@@ -1,0 +1,107 @@
+.main {
+    height: calc(100vh - 18rem);
+    height: calc(100svh - 18rem);
+}
+
+.container--main {
+    height: 100%;
+}
+
+.row--main {
+    height: 100%;
+    position: relative;
+}
+
+.main__content {
+    height: 100%;
+    overflow-y: scroll;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: calc(var(--gap) * 2);
+    border-top: calc(var(--padding) * 2) solid var(--body-bg-color);
+    border-bottom: calc(var(--padding) * 2) solid var(--body-bg-color);
+    padding: 15rem 0;
+    background: linear-gradient(180deg, var(--blur-shadow-color) 15%, rgba(255, 255, 255, 0) 50%, var(--blur-shadow-color) 85%);
+}
+
+.main__content::-webkit-scrollbar {
+    width: 0;
+}
+
+.verse__wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: var(--gap);
+    text-align: center;
+    z-index: -1;
+}
+
+.verse__arabic {
+    font-family: var(--gandom-font);
+    font-size: 2.2rem;
+    line-height: 1.8;
+}
+
+.verse__pershin {
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+.main__list {
+    padding: var(--gap) 0.5rem;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: var(--gap);
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.main__list::-webkit-scrollbar {
+    width: 0;
+}
+
+.list__item {
+    min-height: 6rem;
+    height: 12.5%;
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: calc(var(--padding) / 2);
+    box-shadow: 0 0.2rem 0.5rem 0 var(--item-shadow-color);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: calc(var(--padding) / 2);
+    position: relative;
+    cursor: pointer;
+    background-color: var(--body-bg-color);
+}
+
+.item__picture {
+    width: auto;
+    height: 100%;
+    border-radius: 0.25rem;
+    object-fit: cover;
+}
+
+.item__content-wrapper {
+    height: 100%;
+    width: 100%;
+    padding: 0 calc(var(--padding) / 2);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item__title {
+    font-family: var(--gandom-font);
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.item__time {
+    font-family: var(--gandom-font);
+    font-size: 1.4rem;
+}

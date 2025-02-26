@@ -1,0 +1,18 @@
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Fonts 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+
+@font-face {
+    font-family: Vazirmatn;
+    src: url('../../fonts/vazirmatn/vazirmatn.woff2') format('woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Gandom;
+    src: url('../../fonts/gandom/gandom.woff2') format('woff2');
+    font-weight: 10000;
+    font-style: bold;
+}

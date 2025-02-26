@@ -1,0 +1,49 @@
+/* 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    Root 
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+*/
+:root {
+
+    /* System Grid Values */
+
+    --padding: 1.25rem;
+    --gap: 1.25rem;
+    --width: calc((100cqi - 11 * var(--gap)) / 12);
+    --width-col-1: var(--width);
+    --width-col-2: calc(var(--width) * 2 + var(--gap));
+    --width-col-3: calc(var(--width) * 3 + 2 * var(--gap));
+    --width-col-4: calc(var(--width) * 4 + 3 * var(--gap));
+    --width-col-5: calc(var(--width) * 5 + 4 * var(--gap));
+    --width-col-6: calc(var(--width) * 6 + 5 * var(--gap));
+    --width-col-7: calc(var(--width) * 7 + 6 * var(--gap));
+    --width-col-8: calc(var(--width) * 8 + 7 * var(--gap));
+    --width-col-9: calc(var(--width) * 9 + 8 * var(--gap));
+    --width-col-10: calc(var(--width) * 10 + 9 * var(--gap));
+    --width-col-11: calc(var(--width) * 11 + 10 * var(--gap));
+    --width-col-12: 100%;
+
+    /* Reset Values */
+
+    --text-color: black;
+    --body-bg-color: white;
+
+    /* Fonts Values */
+
+    --vazirmatn-font: "Vazirmatn";
+    --gandom-font: "Gandom";
+
+    /* Color Values */
+
+    --main-color: rgb(0, 190, 190);
+    --secend-color: rgb(0, 85, 213);
+    --blur-shadow-color: rgba(255, 255, 255, 0.5);
+    --item-shadow-color: rgb(190, 190, 190);
+}
+
+.dark:root {
+    --text-color: white;
+    --body-bg-color: rgb(30, 30, 30);
+    --blur-shadow-color: rgba(30, 30, 30, 0.5);
+    --item-shadow-color: black;
+}
