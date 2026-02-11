@@ -2,7 +2,7 @@
 
 # 📀 Nava Player Project
 
-Hello and welcome to this repository, in this time i made something different. this project is personal and id do that coz of when i was just a child i would to have a player for Monojat, just this. i hope use it and like it, i public it to give a gifet to people can talk and ask than god. if you like it don't forget give star.
+Hello and welcome to this repository, in this time I made something different. this project is personal and i did it because of when I was just a child I would to have a player for Monojat and it's also a gift for my mother because she realy belive these things so much and I made it for her, just this. i hope use it and like it, i public it to give a gifet to people can talk and ask than god. if you like it don't forget give star.
 
 **check it out :** [Demo](https://amiralishoja.github.io/NavaPlayerProject/dist/)
 
