@@ -13,7 +13,7 @@ let soundsName = []
 
 const sounds = [
     {
-        name: "عهد", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FAhd.mp3", verses: [
+        name: "عهد", source: "sounds/Ahd.mp3", verses: [
             { verse: "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ", translate: "به نام خداوند بخشنده مهربان" },
             { verse: "اللَّهُمَّ رَبَّ النُّورِ الْعَظِیمِ وَ رَبَّ الْكُرْسِیِّ الرَّفِیعِ وَ رَبَّ الْبَحْرِ الْمَسْجُورِ", translate: "خداى اى پروردگار نور بزرگ، و پروردگار كرسى بلند، و پروردگار دریاى جوشان" },
             { verse: "وَ مُنْزِلَ التَّوْرَاةِ وَ الْإِنْجِیلِ وَ الزَّبُورِ", translate: "و فرو فرستنده تورات و انجیل و زبور" },
@@ -46,7 +46,7 @@ const sounds = [
         ], time: "8:35"
     },
     {
-        name: "آل یاسین", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FAlYasin.mp3", verses: [
+        name: "آل یاسین", source: "sounds/AlYasin.mp3", verses: [
             { verse: "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ", translate: "به نام خداوند بخشنده مهربان" },
             {
                 verse: "سَلاَمٌ عَلَى آلِ يس السَّلاَمُ عَلَيْكَ يَا دَاعِيَ اللَّهِ وَ رَبَّانِيَّ آيَاتِهِ",
@@ -291,7 +291,7 @@ const sounds = [
         ], time: "16:44"
     },
     {
-        name: "امین اللّه", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FAminAllah.mp3", verses: [
+        name: "امین اللّه", source: "sounds/AminAllah.mp3", verses: [
             { verse: "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ", translate: "به نام خداوند بخشنده مهربان" },
 
             {
@@ -385,7 +385,7 @@ const sounds = [
         ], time: "7:51"
     },
     {
-        name: "عاشورا", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FAshoura.mp3", verses: [
+        name: "عاشورا", source: "sounds/Ashoura.mp3", verses: [
             { verse: "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ", translate: "به نام خداوند بخشنده مهربان" },
             {
                 verse: "اَلسَّلامُ عَلَیْکَ یا اَباعَبْدِاللَّهِ اَلسَّلامُ عَلَیْکَ یَابْنَ رَسُولِ اللَّهِ اَلسَّلامُ عَلَیْکَ یا خِیَرَةَ اللَّهِ و َابْنَ خِیَرَتِهِ اَلسَّلامُ عَلَیْکَ یَابْنَ اَمیرِالْمُؤْمِنینَ و َابْنَ سَیِّدِ الْوَصِیّینَ",
@@ -546,7 +546,7 @@ const sounds = [
         ], time: "16:9"
     },
     {
-        name: "عظم‌البلاء", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FAzomalBala.mp3", parsVerses: [], verses: [
+        name: "عظم‌البلاء", source: "sounds/AzomalBala.mp3", parsVerses: [], verses: [
             { verse: "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ", translate: "به نام خداوند بخشنده مهربان" },
             {
                 verse: "إِلٰهِی عَظُمَ الْبَلاءُ، وَ بَرِحَ الْخَفاءُ، وَانْکَشَفَ الْغِطاءُ، وَ انْقَطَعَ الرَّجاءُ",
@@ -595,7 +595,7 @@ const sounds = [
         ], time: "3:34"
     },
     {
-        name: "عید غدیر", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FEideQadir.mp3", verses: [
+        name: "عید غدیر", source: "sounds/EideQadir.mp3", verses: [
             {
                 verse: "اللَّهُمَّ إِنِّي أَسْأَلُكَ بِأَنَّ لَكَ الْحَمْدَ وَحْدَكَ لاَ شَرِيكَ لَكَ",
                 translate: "اى خداى من از تو درخواست مى کنم که حمد و ستايش مخصوص توست که يکتايى و بى شريک"
@@ -751,7 +751,7 @@ const sounds = [
         ], time: "21:14"
     },
     {
-        name: "استغاثه", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FEsteqase.mp3", verses: [
+        name: "استغاثه", source: "sounds/Esteqase.mp3", verses: [
             { verse: "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ", translate: "به نام خداوند بخشنده مهربان" },
             {
                 verse: "سَلاَمُ اللَّهِ الْكَامِلُ التَّامُّ الشَّامِلُ الْعَامُّ وَ صَلَوَاتُهُ الدَّائِمَةُ وَ بَرَكَاتُهُ الْقَائِمَةُ التَّامَّةُ عَلَى حُجَّةِ اللَّهِ",
@@ -836,7 +836,7 @@ const sounds = [
         ], time: "5:55"
     },
     {
-        name: "فرج", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FFaraj.mp3", verses: [
+        name: "فرج", source: "sounds/Faraj.mp3", verses: [
             {
                 verse: "بِسْمِ اللهِ الرَّحْمنِ الرَّحِیمِ",
                 translate: "به نام خداوند رحمن و رحیم"
@@ -856,7 +856,7 @@ const sounds = [
         ], time: "1:45"
     },
     {
-        name: "حدیث کساء", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FHadithKasa.mp3", verses: [
+        name: "حدیث کساء", source: "sounds/HadithKasa.mp3", verses: [
             {
                 verse: "بسم الله الرحمن الرحیم",
                 translate: "به نام خداوند بخشنده مهربان"
@@ -1128,7 +1128,7 @@ const sounds = [
         ], time: "14:49"
     },
     {
-        name: "جامع کبیره", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FJamehKabire.mp3", verses: [
+        name: "جامع کبیره", source: "sounds/JamehKabire.mp3", verses: [
             {
                 verse: "السَّلاَمُ عَلَيْكُمْ يَا أَهْلَ بَيْتِ النُّبُوَّةِ وَ مَوْضِعَ الرِّسَالَةِ وَ مُخْتَلَفَ الْمَلاَئِكَةِ وَ مَهْبِطَ الْوَحْيِ وَ مَعْدِنَ الرَّحْمَةِ",
                 translate: "سلام بر شما اى خاندان نبوت و موضع ودايع رسالت و محل نزول ملايك و هبوط انوار وحى خدا و معدن رحمت حق"
@@ -1580,7 +1580,7 @@ const sounds = [
         ], time: "42:34"
     },
     {
-        name: "جوشن کبیر", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FJaushanKabir.mp3", verses: [
+        name: "جوشن کبیر", source: "sounds/JaushanKabir.mp3", verses: [
             {
                 verse: "أَعُوذُ بِاللَّهِ مِنَ الشَّيطَانِ الرَّجِيمِ",
                 translate: "پناه می‌برم به خدا از شر شیطان رانده شده"
@@ -3220,7 +3220,7 @@ const sounds = [
         ], time: "1:7:42"
     },
     {
-        name: "جوشن صغیر", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FJaushanSaqir.mp3", verses: [
+        name: "جوشن صغیر", source: "sounds/JaushanSaqir.mp3", verses: [
             {
                 verse: "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
                 translate: "به نام خداى بخشاينده مهربان"
@@ -3896,7 +3896,7 @@ const sounds = [
         ], time: "40:36"
     },
     {
-        name: "کمیل", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FKomeil.mp3", verses: [
+        name: "کمیل", source: "sounds/Komeil.mp3", verses: [
             {
                 verse: "بسم الله الرحمن الرحیم",
                 translate: "به نام خداوند بخشنده مهربان"
@@ -4264,7 +4264,7 @@ const sounds = [
         ], time: "33:15"
     },
     {
-        name: "مشلول", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FMashlool.mp3", verses: [
+        name: "مشلول", source: "sounds/Mashlool.mp3", verses: [
             {
                 verse: "بسم الله الرحمن الرحیم",
                 translate: "به نام خداوند بخشنده مهربان"
@@ -4572,7 +4572,7 @@ const sounds = [
         ], time: "20:5"
     },
     {
-        name: "مناجات امیرالمؤمنین", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FMonajatAmirAlMoemenin.mp3", verses: [
+        name: "مناجات امیرالمؤمنین", source: "sounds/MonajatAmirAlMoemenin.mp3", verses: [
             {
                 verse: "اَللَّهُمَّ إِنِّي أَسْأَلُكَ الْأَمَانَ يَوْمَ لاَ يَنْفَعُ مَالٌ وَ لاَ بَنُونَ إِلاَّ مَنْ أَتَى اللَّهَ بِقَلْبٍ سَلِيمٍ",
                 translate: "پروردگارا من از تو درخواست ايمنى مى كنم آن روز سختى كه مال و فرزند هيچ نفع نبخشد و چيزى جز آنكه با قلب پاك و سالم حضور خدا آيد سود ندهد"
@@ -4716,7 +4716,7 @@ const sounds = [
         ], time: "13:18"
     },
     {
-        name: "ندبه", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FNodbeh.mp3", verses: [
+        name: "ندبه", source: "sounds/Nodbeh.mp3", verses: [
             {
                 verse: "أَعُوذُ بِاللَّهِ مِنَ الشَّيطَانِ الرَّجِيمِ",
                 translate: "پناه می‌برم به خدا از شر شیطان رانده شده"
@@ -5216,7 +5216,7 @@ const sounds = [
         ], time: "26:59"
     },
     {
-        name: "نور", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FNoor.mp3", verses: [
+        name: "نور", source: "sounds/Noor.mp3", verses: [
             {
                 verse: "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
                 translate: "بنام خداى بخشاينده مهربان"
@@ -5244,7 +5244,7 @@ const sounds = [
         ], time: "1:36"
     },
     {
-        name: "صباح", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FSabah.mp3", verses: [
+        name: "صباح", source: "sounds/Sabah.mp3", verses: [
             {
                 verse: "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
                 translate: "به نام خداى بخشاينده مهربان"
@@ -5476,7 +5476,7 @@ const sounds = [
         ], time: "13:53"
     },
     {
-        name: "سحر", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FSahar.mp3", verses: [
+        name: "سحر", source: "sounds/Sahar.mp3", verses: [
             {
                 verse: "بِسْمِ اللهِ الرَّحْمنِ الرَّحِیمِ",
                 translate: "به نام خداوند بخشنده مهربان"
@@ -5576,7 +5576,7 @@ const sounds = [
         ], time: "11:32"
     },
     {
-        name: "سمات", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FSamat.mp3", verses: [
+        name: "سمات", source: "sounds/Samat.mp3", verses: [
             {
                 verse: "بسم الله الرحمن الرحیم",
                 translate: "به نام خداوند بخشنده مهربان"
@@ -5840,7 +5840,7 @@ const sounds = [
         ], time: "15:11"
     },
     {
-        name: "سریع‌الاجابه", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FSarieOlJabeh.mp3", verses: [
+        name: "سریع‌الاجابه", source: "sounds/SarieOlJabeh.mp3", verses: [
             {
                 verse: "بسم الله الرحمن الرحیم",
                 translate: "به نام خداوند بخشنده مهربان"
@@ -5884,7 +5884,7 @@ const sounds = [
         ], time: "2:51"
     },
     {
-        name: "توسل", source: "https://navaplayer.s3.ir-thr-at1.arvanstorage.ir/sounds%2FSounds%2FTavasol.mp3", verses: [
+        name: "توسل", source: "sounds/Tavasol.mp3", verses: [
             {
                 verse: "أَعُوذُ بِاللَّهِ مِنَ الشَّيطَانِ الرَّجِيمِ",
                 translate: "پناه می‌برم به خدا از شر شیطان رانده شده"
